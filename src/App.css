@@ -1,11 +1,43 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  /* text-align: center; */
+  height: 100vh;
+  width: 100vw;
+  background: url("../img/driveimg.jpg") no-repeat center center/cover;
 }
+
+ul li {
+  list-style: none;
+}
+
+
+
+
+.flx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.btn:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+input {
+  color: black;
+}
+
+.btn {
+  background-color: darkgray;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,20 +45,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
